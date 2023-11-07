@@ -1,1 +1,6 @@
-{}
+{
+    "name" : {"name": "nome do documento"},
+    "1":{"type": "p" , "c": {"1":{"p": "meu paragrafo", "tipo":"normal"}},"ajuda": "exemplo de ajuda 1", "removivel": false},
+    "2":{"type": "i", "ajuda": "exemplo de ajuda 2", "removivel": true},
+    "3":{"type": "h", "htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false}
+}
