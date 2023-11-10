@@ -1,6 +1,7 @@
 {
-    "name" : {"name": "nome do documento"},
-    "1":{"type": "p" , "c": {"1":{"p": "meu paragrafo", "tipo":"normal"}},"ajuda": "exemplo de ajuda 1", "removivel": false},
-    "2":{"type": "i", "ajuda": "exemplo de ajuda 2", "removivel": true},
-    "3":{"type": "h", "htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false}
+    "1" : {"type": "name", "t":  "nome do documento"},
+    "2":{"type": "p" , "p": "texto","c": [{"t": "meu paragrafo", "tipo":"normal"}],"ajuda": "exemplo de ajuda 1", "removivel": false},
+    "3":{"type": "i", "i":"arquivo.png","ajuda": "exemplo de ajuda 2", "removivel": true},
+    "4":{"type": "h",  "c":[{"t": "Meu titulo"}],"htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false},
+    "5": {"type": "t"}
 }
