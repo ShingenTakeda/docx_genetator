@@ -59,7 +59,23 @@ def test_json_to_doc(json):
                         print("heading|removivel: " + str(i[1]["removivel"]))
                         temp_doc.add_heading(i[1]["c"][0]["t"], level=int(i[1]["htype"]))
                   case "t":
-                        print("table")
+                        print(f"table|rows: {i[1]['rows']}|cols: {i[1]['cols']}")
+                        print(f"table|len arrays: {len(i[1]['cells'])}")
+                        print(f"table|arrays: {i[1]['cells']}")
+                        table = temp_doc.add_table(rows=i[1]["rows"], cols=i[1]["cols"])
+
+                        for t in i[1]["cells"]:
+                              if t == i[1]["cells"][0]:
+                                    counter = 0
+                                    for t in i[1]["cells"][0]:
+                                          hdr_cell = table.rows[0].cells
+                                          hdr_cell[counter].text = t
+                                          counter = counter + 1
+                              else:
+                                    cell = table.add_row().cells
+                                    for b in range(len(t)):
+                                          cell[b].text = t[b]
+
       temp_doc.save(f"{name}.docx")
 
 test_json_to_doc(jd)
