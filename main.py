@@ -1,5 +1,6 @@
 import os
 import json
+import glob
 from docx import Document
 from docx.shared import Inches
 from fastapi import FastAPI
@@ -9,8 +10,15 @@ from fastapi import Body, FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.responses import FileResponse
 from fastapi import FastAPI, File, UploadFile
+from starlette.background import BackgroundTask
 
 #Run with this: uvicorn main:app --reload
+
+#Delete temp files in tmp
+def deleteTemp():
+    files = glob.glob(tmpDir + "*.docx")
+    for f in files:
+        os.remove(f)
 
 dir =  os.path.dirname(__file__)
 modelosPath = dir + "/modelos/"
@@ -85,19 +93,14 @@ async def mandarModeloJSON(modelo):
 
 @app.post("/docx")
 async def mandarModeloDocx(payload : Request):
-    #print(await payload.body())
     jd = json.loads(await payload.body())
     print(jd)
     name = json_to_doc(jd)
-    return FileResponse(f"{tmpDir}{name}.docx")#{"Receiced" : await payload.body()}#
-#all other routes should return the actual model
+    return FileResponse(f"{tmpDir}{name}.docx", background=BackgroundTask(deleteTemp))#{"Receiced" : await payload.body()}#
 
 @app.post("/docx/{modelo}")
 async def mockDocx(modelo):
     fileData = open(os.path.join(dir + "/modelos/", '{arquivo}.json'.format(arquivo = modelo)))
     jd = json.load(fileData)
-    print(type(jd))
-    name = ""
     json_to_doc(jd)
-    print(name)
-    return FileResponse(f"{tmpDir}{modelo}.docx")
+    return FileResponse(f"{tmpDir}{modelo}.docx", background=BackgroundTask(deleteTemp))
