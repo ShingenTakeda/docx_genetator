@@ -1,0 +1,7 @@
+{
+    "1":{"type": "name", "t":  "doc"},
+    "2":{"type": "p" ,"c": [{"t": "meu paragrafo", "tipo":"normal"}],"ajuda": "exemplo de ajuda 1", "removivel": false},
+    "3":{"type": "i", "i":"arquivo.png","ajuda": "exemplo de ajuda 2", "removivel": true},
+    "4":{"type": "h",  "c":[{"t": "Meu titulo"}],"htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false},
+    "5":{"type": "t", "rows": 1, "cols": 2, "cells": [["test1", "test2"], ["test3", "test4"], ["test5", "test6"]]}
+}

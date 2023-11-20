@@ -44,7 +44,7 @@ def test_json_to_doc(json):
                         print("Nome do documento: " + i[1]["t"])
                         name = i[1]["t"]
                   case "p":
-                        print("paragraph: " + i[1]["p"])
+                        #print("paragraph: " + i[1]["p"])
                         print("paragraph|ajuda: " + str(i[1]["ajuda"]))
                         print("paragraph|removivel: " + str(i[1]["removivel"]))
                         print("paragraph|text:" + i[1]["c"][0]["t"])
