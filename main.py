@@ -64,6 +64,7 @@ def json_to_doc(json):
                                     cell = table.add_row().cells
                                     for b in range(len(t)):
                                           cell[b].text = t[b]
+                        temp_doc.add_paragraph("")
 
       temp_doc.save(f"{tmpDir}{name}.docx")
       return name
