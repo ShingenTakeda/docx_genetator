@@ -11,6 +11,7 @@ from fastapi.responses import JSONResponse
 from fastapi.responses import FileResponse
 from fastapi import FastAPI, File, UploadFile
 from starlette.background import BackgroundTask
+from fastapi.middleware.cors import CORSMiddleware
 
 #Run with this: uvicorn main:app --reload
 
@@ -70,6 +71,19 @@ def json_to_doc(json):
       return name
 
 app = FastAPI()
+
+origins = [
+    "http://localhost/*",
+    "http://localhost:5173",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 #root should return all models
 #Whoever consuming it should either treat it or smth
