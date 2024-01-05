@@ -1,7 +1,7 @@
-{
-    "1":{"type": "name", "t":  "outro_doc"},
-    "2":{"type": "p" ,"c": [{"t": "meu paragrafo do outro doc", "tipo":"normal"}],"ajuda": "exemplo de ajuda 1", "removivel": false},
-    "3":{"type": "i", "i":"arquivo.png","ajuda": "exemplo de ajuda 2", "removivel": true},
-    "4":{"type": "h",  "c":[{"t": "Meu titulo do outro doc"}],"htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false},
-    "5":{"type": "t", "rows": 1, "cols": 2, "cells": [["test5", "test6"], ["test7", "test8"], ["test9", "test10"]]}
-}
+[
+    {"type": "name", "t":  "outro_doc"},
+    {"type": "p" ,"c": [{"t": "meu paragrafo do outro doc", "tipo":"normal"}],"ajuda": "exemplo de ajuda 1", "removivel": false},
+    {"type": "i", "i":"arquivo.png","ajuda": "exemplo de ajuda 2", "removivel": true},
+    {"type": "h",  "c":[{"t": "Meu titulo do outro doc"}],"htype": "0", "ajuda": "exemplo de ajuda 3","removivel": false},
+    {"type": "t", "rows": 1, "cols": 2, "cells": [["test5", "test6"], ["test7", "test8"], ["test9", "test10"]]}
+]
