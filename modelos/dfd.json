@@ -1,15 +1,159 @@
 [
-    {"type": "name", "t":  "dfd"},
-    {"type": "h",  "c":[{"t": "Documento de formalização"}],"htype": "0", "ajuda": "Primeiro titulo","removivel": false},
-    {"type": "h",  "c":[{"t": "TRE-CE/ PRESI/ DIGER/ SAD/ ASGADR"}],"htype": "1", "ajuda": "Segundo titulo","removivel": false},
-    {"type": "p",  "c":[{"t": "Nos termos do Artigo ___ da Lei nº 14.133/2021 c/c/ com __ TRE/CE, esta mesma unidade autoriza os andamentos da Fase Preparatória do processo de contratação para a seguinte aquisição:", "tipo":"normal"}],"ajuda": "1. paragrafo", "removivel": false},
-    {"type": "t", "rows": 1, "cols": 1, "cells": [["DESCRIÇÃO PRELIMINAR/POSSÍVEL OBJETO"], [""]], "ajuda": "Trata de procedimento para a aquisição de MATERIAL DE CONSUMO, expedientes: material de escritório, conforme especificações  revisadas do PCA."},
-    {"type": "t", "rows": 1, "cols": 1, "cells": [["BREVE JUSTIFICATIVA"], [""]], "ajuda": "Ex: Justifica-se a aquisição para suprir as necessidades materiais de expediente e suprimentos mínimos, buscando propiciar uma maior organização administrativa dos recursos necessários para as atividades."},
-    {"type": "t", "rows": 1, "cols": 1, "cells": [["INFORMAÇÕES NECESSÁRIAS"], [""]], "ajuda": "O Objeto está previsto no Plano de Contratações Anual? (    ) SIM (    ) NÃO Trata-se de Aquisição de Artigo de Luxo? (    ) SIM (    ) NÃO Trata-se de Sistema de Registro de Preços? (    ) SIM (    ) NÃOs."},
-    {"type": "t", "rows": 1, "cols": 2, "cells": [["UNIDADE DEMANDANTE", "test2"], ["GESTOR/ SUPLENTE", "test4"], ["FISCAL", "test6"]]},
-    {"type": "p",  "c":[{"t": "Estabeleço no âmbito do presente processo de aquisição, em razão do vulto e da complexidade da contratação, os seguintes QUESITOS ESPECIAIS DE GOVERNANÇA:", "tipo":"normal"}],"ajuda": "2. paragrafo", "removivel": false},
-    {"type": "t", "rows": 1, "cols": 2, "cells": [[" ", "Necessidade de controle do recebimento (Ordem de serviço, termos de recebimento e distribuição interna dos materiais) e vigilância permanente de seus estoques, quanto a guarda e a movimentação."], [" ", "Dispensado Estudo Técnico Preliminar, tendo em vista a previsão de aquisição por meio de dispensa de licitação em razão do valor."]]},
-    {"type": "p",  "c":[{"t": "Fortaleza, data registrada do sistema", "tipo":"normal"}],"ajuda": "3. paragrafo", "removivel": false},
-    {"type": "p",  "c":[{"t": "Elaborado por:", "tipo":"normal"}],"ajuda": "4. paragrafo", "removivel": false},
-    {"type": "p",  "c":[{"t": "Autorizado por:", "tipo":"normal"}],"ajuda": "5. paragrafo", "removivel": false}
+  {
+    "type": "name",
+    "t": "dfd"
+  },
+  {
+    "type": "h",
+    "c": [
+      {
+        "t": "Documento de formalização"
+      }
+    ],
+    "htype": "0",
+    "ajuda": "Primeiro titulo",
+    "removivel": false
+  },
+  {
+    "type": "h",
+    "c": [
+      {
+        "t": "TRE-CE/ PRESI/ DIGER/ SAD/ ASGADR"
+      }
+    ],
+    "htype": "1",
+    "ajuda": "Segundo titulo",
+    "removivel": false
+  },
+  {
+    "type": "p",
+    "c": [
+      {
+        "t": "Nos termos do Artigo ___ da Lei nº 14.133/2021 c/c/ com __ TRE/CE, esta mesma unidade autoriza os andamentos da Fase Preparatória do processo de contratação para a seguinte aquisição:",
+        "tipo": "normal"
+      }
+    ],
+    "ajuda": "1. paragrafo",
+    "removivel": false
+  },
+  {
+    "type": "t",
+    "rows": 1,
+    "cols": 1,
+    "cells": [
+      [
+        "DESCRIÇÃO PRELIMINAR/POSSÍVEL OBJETO"
+      ],
+      [
+        "Objeto de tipo eletronico, da marca lenovo"
+      ]
+    ],
+    "ajuda": "Trata de procedimento para a aquisição de MATERIAL DE CONSUMO, expedientes: material de escritório, conforme especificações  revisadas do PCA."
+  },
+  {
+    "type": "t",
+    "rows": 1,
+    "cols": 1,
+    "cells": [
+      [
+        "BREVE JUSTIFICATIVA"
+      ],
+      [
+        "Repor maquinas antigas"
+      ]
+    ],
+    "ajuda": "Ex: Justifica-se a aquisição para suprir as necessidades materiais de expediente e suprimentos mínimos, buscando propiciar uma maior organização administrativa dos recursos necessários para as atividades."
+  },
+  {
+    "type": "t",
+    "rows": 1,
+    "cols": 1,
+    "cells": [
+      [
+        "INFORMAÇÕES NECESSÁRIAS"
+      ],
+      [
+        "Garantia: 3 anos"
+      ]
+    ],
+    "ajuda": "O Objeto está previsto no Plano de Contratações Anual? (    ) SIM (    ) NÃO Trata-se de Aquisição de Artigo de Luxo? (    ) SIM (    ) NÃO Trata-se de Sistema de Registro de Preços? (    ) SIM (    ) NÃOs."
+  },
+  {
+    "type": "t",
+    "rows": 1,
+    "cols": 2,
+    "cells": [
+      [
+        "UNIDADE DEMANDANTE",
+        "COGOV"
+      ],
+      [
+        "GESTOR/ SUPLENTE",
+        "Leandro Tadeo"
+      ],
+      [
+        "FISCAL",
+        "------"
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "c": [
+      {
+        "t": "Estabeleço no âmbito do presente processo de aquisição, em razão do vulto e da complexidade da contratação, os seguintes QUESITOS ESPECIAIS DE GOVERNANÇA:",
+        "tipo": "normal"
+      }
+    ],
+    "ajuda": "2. paragrafo",
+    "removivel": false
+  },
+  {
+    "type": "t",
+    "rows": 1,
+    "cols": 2,
+    "cells": [
+      [
+        "Escreva aqui",
+        "Necessidade de controle do recebimento (Ordem de serviço, termos de recebimento e distribuição interna dos materiais) e vigilância permanente de seus estoques, quanto a guarda e a movimentação."
+      ],
+      [
+        "Escreva aqui",
+        "Dispensado Estudo Técnico Preliminar, tendo em vista a previsão de aquisição por meio de dispensa de licitação em razão do valor."
+      ]
+    ]
+  },
+  {
+    "type": "p",
+    "c": [
+      {
+        "t": "Fortaleza, data registrada do sistema",
+        "tipo": "normal"
+      }
+    ],
+    "ajuda": "3. paragrafo",
+    "removivel": false
+  },
+  {
+    "type": "p",
+    "c": [
+      {
+        "t": "Elaborado por:",
+        "tipo": "normal"
+      }
+    ],
+    "ajuda": "4. paragrafo",
+    "removivel": false
+  },
+  {
+    "type": "p",
+    "c": [
+      {
+        "t": "Autorizado por:",
+        "tipo": "normal"
+      }
+    ],
+    "ajuda": "5. paragrafo",
+    "removivel": false
+  }
 ]
