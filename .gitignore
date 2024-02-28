@@ -1,0 +1,9 @@
+bin
+include
+lib64
+lib/*
+demo.docx
+tmp
+pyvenv.cfg
+__pycache__
+outro.json
