@@ -1,9 +1,6 @@
 bin
 include
 lib64
-lib/*
-demo.docx
-tmp
+lib
 pyvenv.cfg
 __pycache__
-outro.json
